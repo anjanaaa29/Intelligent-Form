@@ -1,0 +1,24 @@
+# PDF and Word processing
+pdfplumber
+python-docx
+Pillow
+
+# OCR for images
+easyocr
+torch
+
+# NLP and Transformers
+spacy
+transformers
+sentence-transformers
+
+# Summarization and Q&A dependencies
+torchvision
+accelerate
+
+# Optional: for interactive UI
+streamlit
+
+# Misc
+numpy
+pandas
