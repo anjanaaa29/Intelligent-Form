@@ -15,6 +15,5 @@
 ---
 
 ## Installation
-
-1. Clone the repository:
-  
+Clone the repository:
+-> https://github.com/anjanaaa29/Intelligent-Form.git
