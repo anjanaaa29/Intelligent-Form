@@ -1,1 +1,20 @@
-# Intelligent-Form
+# IntelligentForm
+
+**IntelligentForm** is a Python-based application that processes documents (PDF, Word, or images), extracts text, captures entities, generates summaries, and answers questions using NLP techniques. It is designed to automate document understanding and provide actionable insights from unstructured content.
+
+---
+
+## Features
+
+- **Document Processing**: Extracts text from PDFs, Word documents, and images.  
+- **Entity Capture**: Identifies key entities such as names, dates, emails, addresses, and more.  
+- **Summarization**: Generates concise summaries of the document content.  
+- **Question Answering**: Answers user queries based on the document content.  
+- **Extensible NLP Pipeline**: Easily extendable to include more advanced NLP tasks.
+
+---
+
+## Installation
+
+1. Clone the repository:
+  
