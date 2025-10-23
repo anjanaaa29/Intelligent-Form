@@ -6,7 +6,7 @@ from src.summary import generate_summary, generate_holistic_summary
 from src.qa import answer_question
 
 # Streamlit App Config
-st.set_page_config(page_title="🧠 Intelligent Form Agent", layout="wide")
+st.set_page_config(page_title="Intelligent Form Agent", layout="wide")
 
 st.title("🧾 Intelligent Form Agent")
 st.write("Upload one or more PDF, DOCX, or image forms to extract, summarize, and ask questions.")
@@ -52,7 +52,7 @@ if uploaded_files:
     # Generate Holistic Summary (if multiple files uploaded)
     if len(results) > 1:
         st.markdown("---")
-        st.subheader("🌐 Holistic Summary Across All Forms")
+        st.subheader("Summary Across All Forms")
         with st.spinner("Generating holistic summary..."):
             holistic_summary = generate_holistic_summary(results)
             st.success("✅ Holistic summary generated successfully")
@@ -60,9 +60,9 @@ if uploaded_files:
 
     # Q&A Section
     st.markdown("---")
-    question = st.text_input("💬 Ask a question about the forms:")
+    question = st.text_input("Ask a question about the forms:")
     if question:
-        st.subheader("🧠 Answers")
+        st.subheader("Answers")
         for file_path, text in results.items():
             if not text.strip():
                 continue
@@ -71,3 +71,4 @@ if uploaded_files:
 
 else:
     st.info("👆 Upload one or more files to begin.")
+
