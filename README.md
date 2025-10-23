@@ -26,11 +26,13 @@ Run the Streamlit app for an interactive web interface:
 
 ---
 
-## Console Execution
-You can also run the application directly from the console using the combined workflow in **agent.py**
-- **python agent.py**
+###  Console Execution
 
-This executes the full document processing and outputs summaries and answers directly in the console, without requiring the Streamlit interface.
+You can also run the application directly from the console using the combined workflow in **`agent.py`**:
+
+bash
+python agent.py
+
 
 ---
 
