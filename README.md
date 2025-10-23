@@ -24,17 +24,21 @@ Clone the repository:
 Run the Streamlit app for an interactive web interface:
 -> streamlit run main.py
 
+---
+
 ## Console Execution
 You can also run the application directly from the console using the combined workflow in **agent.py**
 -> python agent.py
 
 This executes the full document processing and outputs summaries and answers directly in the console, without requiring the Streamlit interface.
 
+---
+
 ## Supported Document Types
 -> PDF files(.pdf)
 -> Word documents(.docx)
 -> Images(.jpg,.png,.jpeg)
-
+---
 
 
 
