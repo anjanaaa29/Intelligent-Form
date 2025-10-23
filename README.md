@@ -22,6 +22,7 @@ Clone the repository:
 
 ## Usage
 Run the Streamlit app for an interactive web interface:
+
 `streamlit run main.py`
 
 ---
