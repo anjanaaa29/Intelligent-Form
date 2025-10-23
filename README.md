@@ -22,7 +22,7 @@ Clone the repository:
 
 ## Usage
 Run the Streamlit app for an interactive web interface:
-- **streamlit run main.py**
+`streamlit run main.py`
 
 ---
 
@@ -30,8 +30,7 @@ Run the Streamlit app for an interactive web interface:
 
 You can also run the application directly from the console using the combined workflow in **`agent.py`**:
 
-bash
-python agent.py
+`python agent.py`
 
 
 ---
